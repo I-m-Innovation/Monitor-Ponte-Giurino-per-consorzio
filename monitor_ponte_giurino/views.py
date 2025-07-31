@@ -17,12 +17,11 @@ def uploadData():
     # ftp = FTPLogIn()
     ftp = FTP("104.167.29.244", timeout=120)
 
-    # try:
-    #
-    # ftp = FTP("192.168.10.211", timeout=120)
-    #
+    # try: 
+    #     ftp = FTP("192.168.10.211", timeout=120)
     # except:
-    #
+    
+
 
     ftp.login('ftpdaticentzilio', 'Sd2PqAS.We8zBK')
     ftp.cwd('/dati/ponte_giurino')
