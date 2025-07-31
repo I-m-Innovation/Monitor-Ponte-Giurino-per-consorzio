@@ -22,8 +22,6 @@ def uploadData():
     except:
         ftp = FTP("192.168.10.211", timeout=120)
     
-
-
     ftp.login('ftpdaticentzilio', 'Sd2PqAS.We8zBK')
     ftp.cwd('/dati/ponte_giurino')
 
