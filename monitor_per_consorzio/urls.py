@@ -21,6 +21,6 @@ from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
-    path('', include('food.urls')),
+    path('', include('monitor_ponte_giurino.urls')),
     path('admin/', admin.site.urls),
 ]

@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'food',
+    'monitor_ponte_giurino',
 ]
 
 MIDDLEWARE = [
@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'provaAzire3.urls'
+ROOT_URLCONF = 'monitor_per_consorzio.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'provaAzire3.wsgi.application'
+WSGI_APPLICATION = 'monitor_per_consorzio.wsgi.application'
 
 
 # Database

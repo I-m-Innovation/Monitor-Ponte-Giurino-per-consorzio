@@ -1,6 +1,6 @@
 # from django.conf.urls import url
 from django.urls import path
-from food import views
+from monitor_ponte_giurino import views
 
 
 urlpatterns = [
