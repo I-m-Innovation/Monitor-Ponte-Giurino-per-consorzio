@@ -15,11 +15,12 @@ from num2string_001 import convertNumber
 def uploadData():
 
     # ftp = FTPLogIn()
-    ftp = FTP("104.167.29.244", timeout=120)
+    # ftp = FTP("104.167.29.244", timeout=120)
 
-    # try: 
-    #     ftp = FTP("192.168.10.211", timeout=120)
-    # except:
+    try: 
+        ftp = FTP("104.167.29.244", timeout=120)
+    except:
+        ftp = FTP("192.168.10.211", timeout=120)
     
 
 
