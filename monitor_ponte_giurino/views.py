@@ -24,7 +24,6 @@ def uploadData():
     # except:
     #
 
-
     ftp.login('ftpdaticentzilio', 'Sd2PqAS.We8zBK')
     ftp.cwd('/dati/ponte_giurino')
 
@@ -40,7 +39,6 @@ def uploadData():
 
 
 def index(request):
-
     Data = uploadData()
     # Data = pd.read_csv("PGDailyPlot.csv")
     P = Data["P"]
